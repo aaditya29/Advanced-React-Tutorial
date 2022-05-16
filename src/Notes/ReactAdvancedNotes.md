@@ -18,4 +18,4 @@ Hooks are great because they let you use more of React's features – like manag
 
 ### useState Hook
 
-The state of our application is bound to change at some point. This could be the value of a variable, an object, or whatever type of data exists in your component.
+The state of our application is bound to change at some point. This could be the value of a variable, an object, or whatever type of data exists in your component.<br>
