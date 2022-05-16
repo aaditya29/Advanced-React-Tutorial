@@ -17,3 +17,5 @@
 Hooks are great because they let you use more of React's features – like managing your component's state, or performing an after effect when certain changes occur in state(s) without writing a class. <br>
 
 ### useState Hook
+
+The state of our application is bound to change at some point. This could be the value of a variable, an object, or whatever type of data exists in your component.
