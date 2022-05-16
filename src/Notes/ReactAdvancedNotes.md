@@ -42,3 +42,17 @@ function App() {
 }
 export default App;
 ```
+
+#### Working Of Above Code
+
+```JavaScript
+import { useState } from "react";
+```
+
+To be able to use this `hook`, we have to import the `useState` hook from React. Also we are using a functional component called `app.`
+
+```JavaScript
+const [name, setName] = useState("Ihechikara");
+```
+
+After that, we have to create our `state `and give it an initial value (or initial state) which is "Ihechikara". The state variable is called `name`, and `setName` is the function for updating its value.
