@@ -55,4 +55,16 @@ To be able to use this `hook`, we have to import the `useState` hook from React.
 const [name, setName] = useState("Ihechikara");
 ```
 
-After that, we have to create our `state `and give it an initial value (or initial state) which is "Ihechikara". The state variable is called `name`, and `setName` is the function for updating its value.
+After that, we have to create our `state `and give it an initial value (or initial state) which is "Ihechikara". The state variable is called `name`, and `setName` is the function for updating its value.<br>
+Above, we used the destructuring assignment to assign an initial name value to the state in useState("Ihechikara").
+
+```JavaScript
+return (
+    <div>
+      <p>My name is {name}</p>
+      <button onClick={changeName}> Click me </button>
+    </div>
+  );
+```
+
+Next, the DOM has a paragraph containing the name variable and a button which fires a function when clicked. The `changeName()` function calls the `setName()` function which then changes the value of the name variable to the value passed in to the `setName()` function.
