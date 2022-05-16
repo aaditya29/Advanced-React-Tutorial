@@ -2,6 +2,14 @@ import React, { useState } from 'react';
 
 const UseStateBasics = () => {
   const [text, setText] = useState('Random Title')
+  const handleClick = () => {
+    if (text === 'random title'){
+      setText('Hello World!')
+    }
+    else{
+      setText('random title')
+    }
+  }
   
   return(
   <React.Fragment>
