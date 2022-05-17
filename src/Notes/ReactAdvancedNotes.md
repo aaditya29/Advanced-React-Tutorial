@@ -68,3 +68,5 @@ return (
 ```
 
 Next, the DOM has a paragraph containing the name variable and a button which fires a function when clicked. The `changeName()` function calls the `setName()` function which then changes the value of the name variable to the value passed in to the `setName()` function.
+
+### Rules Of Hooks
