@@ -70,3 +70,8 @@ return (
 Next, the DOM has a paragraph containing the name variable and a button which fires a function when clicked. The `changeName()` function calls the `setName()` function which then changes the value of the name variable to the value passed in to the `setName()` function.
 
 ### Rules Of Hooks
+
+1. As far as Hooks are concerned, the variable name will start with word 'use'. For example: `useState`, `useCallback`, `useEffect` etc.
+2. Component name must be uppercase.
+3. Hooks must be in the function/component body.
+4. Don’t call Hooks inside loops, conditions, or nested functions. Instead, always use Hooks at the top level of your React function, before any early returns.
