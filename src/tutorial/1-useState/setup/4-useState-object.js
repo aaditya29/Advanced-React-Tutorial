@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 
 const UseStateObject = () => {
-  const UseStateObject = () => {
   const [person, setPerson] = useState({
     name: 'peter',
     age: 24,
     message: 'random message',
   });
+
+  const changeMessage = () => {
+    setPerson({ ...person, message: 'hello world' });
+    // setMessage('hello world')
+  };
 
   return (
     <>
@@ -17,7 +21,7 @@ const UseStateObject = () => {
         change message
       </button>
     </>
-  )
+  );
 };
 
 export default UseStateObject;
